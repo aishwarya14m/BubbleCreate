@@ -8,7 +8,7 @@ document.getElementById("container").addEventListener("mouseover", function(e){
     grid.append("circle")
    .attr("cx", e.clientX)
    .attr("cy", e.clientY)
-   .attr("r", 20)
+   .attr("r", 40)
    .attr("fill", "rgb("+Math.floor(Math.random() * (10))+","+e.clientY+","+(e.clientX*(2))+")")
     console.log(e.clientX+" and "+e.clientY);
     
